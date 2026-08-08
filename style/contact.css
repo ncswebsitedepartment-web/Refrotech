@@ -1,1 +1,232 @@
 
+    .hero-section {
+      position: relative;
+      background: url('/images/heroimg.jpg') center/cover no-repeat;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .hero-title {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .breadcrumb-custom {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .breadcrumb-custom a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+
+    .breadcrumb-custom span {
+      color: #fff;
+      margin: 0 5px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-section {
+        height: 220px;
+      }
+      .hero-title {
+        font-size: 28px;
+      }
+    }
+
+     .contact-section {
+  padding: 70px 0;
+}
+
+/* TITLE */
+.title {
+  font-size: 34px;
+  line-height: 37px;
+  font-weight: 700;
+  color: #1d2e44;
+ font-family: 'Poppins', sans-serif;
+}
+
+.title-line {
+  width: 40px;
+  height: 2px;
+  background: #D6B34A;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: baseline;
+}
+
+.desc {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #797979;
+}
+ 
+.form-control {
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 18px;
+  color: #959595;
+  font-family: 'Open Sans', sans-serif;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #D6B34A;  /* your gold color */
+}
+
+textarea.form-control {
+  height: 170px;
+  resize: none;
+}
+
+.btn-submit {
+  background: #D6B34A;
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.info-item:first-child {
+  padding-top: 0;
+}
+
+.info-icon {
+  width: 55px;
+  height: 55px;
+  border: 2px solid #D6B34A;   /* circle border */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D6B34A;              /* icon color */
+  font-size: 20px;
+  margin-right: 18px;
+  background-color: transparent; /* no fill */
+}
+.info-text {
+  color: #797979;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+@media (max-width: 991px) {
+  .contact-info {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+} 
+
+    .form-control:focus,
+.form-control:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #D6B34A !important; /* or #e0e0e0 if you want no change */
+}
+/* ===== MAP SECTION WRAPPER ===== */
+.map-section {
+    padding: 30px 0;
+    background: #f8f9fb;  /* light premium background */
+}
+
+/* CENTER CONTAINER LOOK */
+.map-section .container {
+    max-width: 1400px;
+}
+
+/* MAP CARD STYLE */
+.map-section iframe {
+    width: 100%;
+    height: 420px;
+    border: 0;
+    border-radius: 12px;              /* smooth corners */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12); /* soft shadow */
+    transition: 0.3s ease;
+}
+
+/* HOVER EFFECT (PRO FEEL) */
+.map-section iframe:hover {
+    transform: scale(1.01);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.18);
+}
+/* ===== CTA SECTION ===== */
+.cta-section {
+    background: #0b4a8b; /* deep professional blue */
+    padding: 25px 0;
+    border-bottom: 4px solid #062a52;
+}
+
+.cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* TEXT */
+.cta-inner h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* BUTTON */
+.cta-btn {
+    background: #D4B15A;
+    color: #000;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.cta-btn:hover {
+    background: #d9ac0f;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .cta-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-inner h2 {
+        font-size: 18px;
+    }
+}
