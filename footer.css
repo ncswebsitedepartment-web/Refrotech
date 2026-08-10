@@ -1,1 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background: #111;
+    color: #aaa;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* TOP */
+.footer-top {
+    padding: 60px 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* LOGO */
+.logo {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* HEADINGS */
+.footer-col h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.footer-col h3::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: gold;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+
+/* LIST */
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer-col ul li a {
+    color: #aaa;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* HOVER EFFECT */
+.footer-col ul li a:hover {
+    color: gold;
+    padding-left: 6px;
+}
+
+/* READ MORE */
+.read-more {
+    color: gold;
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+/* SOCIAL */
+.social a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #444;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+    color: #aaa;
+}
+
+.social a:hover {
+    background: gold;
+    color: #000;
+}
+
+/* CONTACT ICON */
+.footer-col span {
+    margin-right: 8px;
+    color: gold;
+}
+
+/* BOTTOM */
+.footer-bottom {
+    border-top: 1px solid #222;
+    padding: 15px 0;
+}
+
+.bottom-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-flex {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+.footer-link {
+    color: gold;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
