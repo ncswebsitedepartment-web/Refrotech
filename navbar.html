@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <title>Metallex Navbar</title>
+  <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+<header class="main-header">
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-inner">
+
+            <div class="top-left">
+                <span><i class="bi bi-geo-alt"></i>209, Nucleus, Bhaba Nagar,
+Mumbai Naka, Nasik – 422001
+</span>
+                <span><i class="bi bi-telephone"></i> +91 97655 59996 </span>
+            </div>
+
+            <div class="top-right">
+                <div class="icon-box"><i class="bi bi-facebook"></i></div>
+                <div class="icon-box"><i class="bi bi-twitter"></i></div>
+                <div class="icon-box"><i class="bi bi-instagram"></i></div>
+                <div class="icon-box"><i class="bi bi-linkedin"></i></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MIDDLE HEADER -->
+    <div class="middle-bar">
+        <div class="container middle-inner">
+
+            <div class="logo">
+                ⚙️ <span>Refrotech</span>
+            </div>
+
+            <div class="features">
+                <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <div>
+                        <strong>Leading Provider</strong><br>
+                        Of Industrial Solutions
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <div>
+                        <strong>Certified</strong><br>
+                        ISO 9001:2009
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <i class="bi bi-search"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+<div class="nav-bar">
+
+    <div class="container nav-inner">
+
+        <!-- LOGO (MOBILE + DESKTOP) -->
+        <div class="logo-mobile">
+            ⚙️ Refrotech
+        </div>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- MENU -->
+        <div class="menu-wrapper" id="menuWrapper">
+            <ul class="menu">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/services/">SERVICES</a></li>
+                <li><a href="/about/">ABOUT US</a></li>
+                <li><a href="/project/">PROJECTS</a></li>
+                <li><a href="/contact/">CONTACT US</a></li>
+            </ul>
+<a href="#" class="quote-btn">GET QUOTE</a>
+        </div>
+
+    </div>
+</div>
+</header>
+<script>
+function toggleMenu() {
+    document.getElementById("menuWrapper").classList.toggle("active");
+}
+</script>
+</body>
+
+</html>
