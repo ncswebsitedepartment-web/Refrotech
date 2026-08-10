@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Footer</title>
 
+    <!-- ✅ Link CSS -->
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- ✅ Font Awesome (icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<footer class="footer">
+
+    <div class="footer-top">
+        <div class="container footer-grid">
+
+            <!-- Column 1 -->
+            <div class="footer-col">
+                <h2 class="logo">Refrotech</h2>
+
+                <p>
+                    At REFROTECH, we believe that the highest-quality ducting isn’t just manufactured; it’s crafted. While our facility utilizes the latest CNC and automated technologies, the true core of our plant is our people.
+                </p>
+
+                <a href="/about/" class="read-more">Read More »</a>
+
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h3>Our Services</h3>
+               <ul>
+  
+    <li><a href="/commercialbuildingoffice/">Commercial Buildings and Offices</a></li>
+    <li><a href="/pharmacleanrooms/">Pharma and Cleanrooms</a></li>
+    <li><a href="/metrorailwayventilation/">Metro/Railway Ventilation</a></li>
+    <li><a href="/hotelshoppingmall/">Hotels & Shopping Mall</a></li>
+    <li><a href="/hospitalslaboratories/">Hospitals & Laboratories</a></li>
+    <li><a href="/industrialfactoriesplants/">Industrial Factories & Plants</a></li>
+</ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/about/">About Us</a></li>
+                    <li><a href="/project/">Projects</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="#">Get Quote</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="footer-col">
+                <h3>Get In Touch</h3>
+
+                <p><span><i class="fas fa-map-marker-alt"></i></span>       209, Nucleus, Bhaba Nagar,<br>
+           Mumbai Naka, Nasik – 422001</p>
+                <p><span><i class="fas fa-phone"></i></span> 0253 – 4001572 <br>
+           +91 97655 59996 <br>
+           +91 9011665599  </p>
+                <p><span><i class="fas fa-envelope"></i></span>  sales.refrotech@gmail.com</p>
+                <p><span><i class="fas fa-clock"></i></span> Mon - Fri : 8:00 - 19:00</p>
+            </div>
+
+        </div>
+    </div>
+<div class="footer-bottom">
+    <div class="container bottom-flex">
+        <p>Copyright © REFROTECH SYNERGY PVT LTD 2026</p>
+        <p>
+            Designed BY 
+            <a href="https://puvsoft.com/" target="_blank" class="footer-link">
+                PUVSOFT PVT LTD
+            </a>
+        </p>
+    </div>
+</div>
+
+</footer>
+
+</body>
+</html>
